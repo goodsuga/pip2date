@@ -13,7 +13,7 @@ pip2date делает именно это! Подайте на вход суще
 
 ## Example
 ```
-python pip2date.py -r requirements.txt -o requirements_to_date.txt -y 2022 -m 1 -d 1
+python pip2date.py -r example_requirements.txt -o requirements_to_date.txt -y 2022 -m 1 -d 1
 ```
 
 will give a list of package versions all released before 2022-01-01.
