@@ -29,3 +29,12 @@ will give a list of package versions all released before 2022-01-01.
 --month / -m : month of the threshold date (int, required)
 
 --day / -d : day of the threshold date (int, required)
+
+## Side-note
+
+EN: Sometimes, the raw release date can differ from the date you actually see on the pypi website.
+  For example, see numpy 1.20.0. It was released December 31, 2021, but the actual date displayed is Jan 1, 2022.
+  To counter this, I suggest simply lowering the threshold date. E.g. 2022-01-01 -> 2021-12-31
+RU: Иногда сырая версия выгрузки версии отличается от того, что на самом деле показывает сайт pypi.
+  Например, см. numpy 1.20.0. Он был выпущен 31 декабря 2021, но отображаемая дата - 1 января 2022.
+  Чтобы исправить это, предлагаю просто понижать дату, т.е. 2022-01-01 -> 2021-12-31
