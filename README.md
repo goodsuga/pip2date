@@ -1,11 +1,11 @@
 # pip2date
-## EN
+## EN: Filter pypi package versions by date
 
 Sometimes, it is necessary to filter pypi package versions by a date, e.g. when you want all your packages released before 2023-06-06.
 
 pip2date does just that! Provided an existing requirements.txt file (or a list of package names) it will generate a new requirements.txt file where all packages will be of the latest version before the threshold date.
 
-## RU: Установить версии пакетов в requirements.txt по дате
+## RU: Отфильтровать версии pypi-пакетов по дате
 
 Иногда нужно отфильтровать версии pypi-пакетов по дате, например когда нужно, чтобы все версии были выпущены до 2023-06-06.
 
