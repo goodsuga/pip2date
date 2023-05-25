@@ -1,0 +1,6 @@
+opencv-python
+numpy
+onnxruntime
+pandas
+keras-ocr
+pillow
